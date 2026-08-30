@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software (this record)
+  and the paper it accompanies.
+title: >-
+  tabaudit: A Leakage-Audit Protocol for Tabular Regression
+abstract: >-
+  Measures the effect of preprocessing-fit-order leakage (fitting an
+  encoder, a derived aggregate, or a feature selector on data the model
+  will later be tested on, instead of on the training rows alone) by
+  building a matched leakage-free/leaky pair of pipelines from the same
+  specification, evaluating both under paired cross-validation, and
+  testing the resulting difference with a plain significance test and a
+  Nadeau-Bengio-corrected TOST equivalence test.
+type: software
+version: 0.1.0
+date-released: "2026-08-29"
+license: MIT
+# repository-code and identifiers (Zenodo DOI) are omitted rather than
+# filled with placeholders — CFF validators reject bracketed placeholder
+# strings as malformed URLs/DOIs. Add both fields once the repository is
+# pushed publicly and a DOI is minted (see ../handoff.md).
+authors:
+  - family-names: Hakim
+    given-names: Mahrukh
+  - family-names: Soomro
+    given-names: Sarmad
+    orcid: "https://orcid.org/0000-0001-6677-1332"
+preferred-citation:
+  type: article
+  title: >-
+    A Reusable Leakage-Audit Protocol for Tabular Regression: Measuring
+    Preprocessing-Leakage Magnitude Across Three Housing Markets
+  authors:
+    - family-names: Hakim
+      given-names: Mahrukh
+    - family-names: Soomro
+      given-names: Sarmad
+      orcid: "https://orcid.org/0000-0001-6677-1332"
+  journal: "Data Mining and Knowledge Discovery"
+  year: 2026
