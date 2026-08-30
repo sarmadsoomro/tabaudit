@@ -16,10 +16,8 @@ type: software
 version: 0.1.0
 date-released: "2026-08-29"
 license: MIT
-# repository-code and identifiers (Zenodo DOI) are omitted rather than
-# filled with placeholders — CFF validators reject bracketed placeholder
-# strings as malformed URLs/DOIs. Add both fields once the repository is
-# pushed publicly and a DOI is minted (see ../handoff.md).
+repository-code: "https://github.com/sarmadsoomro/tabaudit"
+# Zenodo DOI to be added before publication.
 authors:
   - family-names: Hakim
     given-names: Mahrukh
